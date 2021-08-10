@@ -24,6 +24,9 @@ public class UserBuilder {
         return new User() {{
             setName(_name);
             setUsername(_username);
+            setEmail(_email);
+            setPhone(_phone);
+            setWebsite(_website);
         }};
     }
 }
